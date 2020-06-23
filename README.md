@@ -1,5 +1,5 @@
 # Core
-Core is a replacement for the core services in ACM@UIUC's current generation of infrastructure. Core is intended to be small and provide only the minimal set of functionality to run ACM@UIUC's website and membership managment. All other additional features should be implemented as microservices which can rely on Core for authentication and memberhip verification.
+Core is a replacement for the core services in ACM@UIUC's current generation of infrastructure. Core is intended to be small and provide only the minimal set of functionality to run ACM@UIUC's website and membership managment. All other additional features should be implemented as microservices which can rely on Core for authentication and membership verification.
 
 ## Design
 The design for Core is detailed in `design.md`. This file covers how Core is organized, the routes exposed by Core, and the structure of the data stored by Core.
